@@ -1,12 +1,18 @@
 body{
     margin:0px;
     padding:0px;
-     background-image: url("http://skilled.aislinthemes.com/app/uploads/2015/11/bg.png");
-    background-repeat: no-repeat;
 }
 
 header{
-   
-    height:309px;
-    margin-top:0vh;
+   background-image: url("http://skilled.aislinthemes.com/app/uploads/2015/11/bg.png");
+    height:360px;
+    width:100vw;
+    position:absolute;
+}
+
+header p{
+    color:white;
+    text-align: center;
+    font-size:1.3em;
+    padding-top:210px;
 }

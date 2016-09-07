@@ -7,12 +7,35 @@ header{
    background-image: url("http://skilled.aislinthemes.com/app/uploads/2015/11/bg.png");
     height:360px;
     width:100vw;
-    position:absolute;
+    text-align: center;
 }
 
+header img{
+    position:relative;
+    top:100px;
+}
 header p{
     color:white;
-    text-align: center;
     font-size:1.3em;
-    padding-top:210px;
+    padding-top:150px;
 }
+
+#courses{
+    background-color: #F2F2F2;
+}
+
+ 
+#course-image1 {
+    display:inline-block;
+     width:50%;
+     float:left;
+    
+}
+
+#course-image1 img{
+     float:left;
+    padding-right:60px;
+    max-width:100%;
+}
+ 
+ 

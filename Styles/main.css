@@ -5,6 +5,7 @@ body{
 
 header{
    background-image: url("http://skilled.aislinthemes.com/app/uploads/2015/11/bg.png");
+    background-repeat: no-repeat;
     height:360px;
     width:100vw;
     text-align: center;
@@ -22,6 +23,7 @@ header p{
 
 #courses{
     background-color: #F2F2F2;
+    margin-top:100px;
 }
 
  
@@ -29,13 +31,49 @@ header p{
     display:inline-block;
      width:50%;
      float:left;
+     
+    
     
 }
 
 #course-image1 img{
      float:left;
     padding-right:60px;
-    max-width:100%;
+    max-width:50%;
 }
  
+#course-image2{
+    display:inline-block;
+    width:50%;
+}
+
+#course-image2 img{
+    float:left;
+    padding-right:60px;
+    max-width:50%;
+}
+
+#course-image3{
+    display:inline-block;
+    width:50%;
+    float:left;
+    clear:both;
+}
  
+#course-image3 img{
+    float:left;
+    padding-right: 60px;
+    max-width: 50%;
+}
+
+#course-image4{
+    display:inline-block;
+    width:50%;
+      
+}
+
+#course-image4 img{
+    padding-right:60px;
+    max-width:50%;
+    float:left;
+}

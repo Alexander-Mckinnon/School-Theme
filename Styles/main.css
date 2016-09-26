@@ -20,10 +20,9 @@ header p{
     font-size:1.3em;
     padding-top:150px;
 }
-
+/* -------Courses page--------*/
 #courses{
     background-color: #F2F2F2;
-    margin-top:100px;
 }
 
  
@@ -77,3 +76,25 @@ header p{
     max-width:50%;
     float:left;
 }
+
+.view_demo_buttons{
+    background-color: #ffc000;
+    color:white;
+    height:47px;
+    width:152px;
+}
+@media(max-width:944px){
+    #course-image1, #course-image2,#course-image3,#course-image4{
+        width:100%;
+        text-align: 
+        
+    }
+    #course-image1 img, #course-image2 img,#course-image3 img,#course-image4 img{
+        float:none;
+        max-width:100%;
+        
+        
+    }
+}
+
+/*------ sensei plugin------*/

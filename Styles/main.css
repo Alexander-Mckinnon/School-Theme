@@ -98,3 +98,20 @@ header p{
 }
 
 /*------ sensei plugin------*/
+#sensei{
+    text-align: center;
+}
+#sensei p{
+    color: #666666;
+}
+ 
+.widget{
+    display:inline-block;
+    width:24%;
+}
+
+.widget i{
+    font-size:32px
+}
+
+ 

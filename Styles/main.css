@@ -30,9 +30,6 @@ header p{
     display:inline-block;
      width:50%;
      float:left;
-     
-    
-    
 }
 
 #course-image1 img{
@@ -114,4 +111,30 @@ header p{
     font-size:32px
 }
 
- 
+/*-----color_alternatives----*/
+
+#color_alternative{
+     text-align: center;
+    background-color:#F2F2F2;
+}
+#color_alternative div{
+    max-width:24%;
+     
+}
+#color_alternative img{
+    max-width:80%;
+     
+}
+#color_alternative div{
+    display:inline-block;
+}
+/*-----benefit-----*/
+#benefits{
+    text-align:center;
+}
+
+.benefit{
+    display:inline-block;
+    width:24%;
+     
+}

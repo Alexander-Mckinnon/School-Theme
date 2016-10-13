@@ -97,6 +97,7 @@ header p{
 /*------ sensei plugin------*/
 #sensei{
     text-align: center;
+    background-color: #FFFFFF;
 }
 #sensei p{
     color: #666666;
@@ -115,7 +116,7 @@ header p{
 
 #color_alternative{
      text-align: center;
-    background-color:#F2F2F2;
+    background-color:#F3F3F3;
 }
 #color_alternative div{
     max-width:24%;
@@ -131,10 +132,30 @@ header p{
 /*-----benefit-----*/
 #benefits{
     text-align:center;
+    background-color:#EEEEEE
 }
 
 .benefit{
     display:inline-block;
     width:24%;
      
+}
+
+/*----Footer ----*/
+.top-footer{
+    background-color: #FFCE55;
+    text-align: center;
+    height:160px;
+    padding:1px;
+}
+
+.top-footer p{
+    padding-top:70px;
+    color:#FFF7E3;
+}
+
+.middle-footer{
+    background-color:#2B2B2B;
+    text-align: center;
+    padding:1px;
 }

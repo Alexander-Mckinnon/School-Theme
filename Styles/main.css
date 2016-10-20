@@ -118,6 +118,13 @@ header p{
 .widget i{
     font-size:32px
 }
+@media(max-width:944px){
+    .widget{
+        display:block;
+        width:100%;
+    }   
+}
+
 
 /*-----color_alternatives----*/
 
@@ -136,6 +143,14 @@ header p{
 #color_alternative div{
     display:inline-block;
 }
+
+@media(max-width:944px){
+    #color_alternative div{
+        display:block;
+        max-width:100%;
+    }   
+}
+
 /*-----benefit-----*/
 #benefits{
     text-align:center;
@@ -146,6 +161,13 @@ header p{
     display:inline-block;
     width:24%;
      
+}
+
+@media(max-width:944px){
+    .benefit{
+        display:block;
+        width:100%;
+    }   
 }
 
 /*----Footer ----*/

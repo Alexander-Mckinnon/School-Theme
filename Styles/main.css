@@ -96,6 +96,7 @@ header p{
     #course-image1 img, #course-image2 img,#course-image3 img,#course-image4 img{
         float:none;
         max-width:100%;
+        padding:0px;
         
         
     }
@@ -154,7 +155,8 @@ header p{
 /*-----benefit-----*/
 #benefits{
     text-align:center;
-    background-color:#EEEEEE
+    background-color:#EEEEEE;
+    
 }
 
 .benefit{
@@ -221,4 +223,34 @@ header p{
 
 .bottom-footer p{
     color: #666666;
+}
+
+#scrollUp{
+    height:50px;
+    width:70px;
+    position:fixed;
+    z-index:2147483647;
+    display:block;
+    background-color:transparent;
+    background-repeat:no-repeat;
+    background-image: url("http://skilled.aislinthemes.com/app/uploads/2015/09/scroll-to-top.png");
+    bottom:0px;
+    right:30px;
+    margin-bottom:-10px;
+    padding:10px 5px;
+    font-family:sans-serif;
+    font-size:14px;
+    line-height:20px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow:0 1px 0 #fff;
+    color: #828282;
+    -webkit-transition:margin-bottom 150ms linear;
+    transition:margin-bottom 150ms linear;
+    
+    
+}
+#scrollUp:hover{
+    opacity:0.5;
+    margin-bottom:5px;
 }
